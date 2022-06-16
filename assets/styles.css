@@ -131,6 +131,9 @@ p{
 }
 
 .cta{
+  background-color: #ffffff;
+  position: relative;
+  z-index: 2;
   width: 50%;
   margin: auto;
   padding: 3rem;
@@ -149,7 +152,86 @@ p{
 }
 
 .cta_btn{
-  margin-top: 0rem;
+  margin-top: -0.5rem;
   font-size: 16px;
   box-shadow: 0px 3px 8px 0px hsla(208, 11%, 55%, 75%);
+}
+
+.footer{
+  margin-top: -5rem;
+  background-color: var(--very-dark-cyan);
+  padding: 11rem 6rem 5rem 6rem;
+}
+
+.footer-logo{
+  filter: invert(97%) sepia(100%) saturate(13%) hue-rotate(196deg) brightness(103%) contrast(103%);
+  margin-bottom: 3rem;
+}
+
+.footer-contacts{
+  display: grid;
+  grid-template-columns: 20% 35% 15% 20%;
+}
+
+.icon{
+  display: grid;
+  grid-template-columns: 1% 99%;
+  column-gap: 3rem;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.icon p{
+  text-align: left;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.infos{
+  margin-left: 16rem;
+}
+
+.links{
+  margin-left: 2rem;
+}
+
+li{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: var(--open-sans);
+  list-style-type: none;
+  margin-bottom: 1.5rem;
+}
+
+.socials{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 5rem;
+}
+
+.social{
+  border: 1px solid #000000;
+  border-radius: 100%;
+  filter: invert(97%) sepia(100%) saturate(13%) hue-rotate(196deg) brightness(103%) contrast(103%);
+  width: 20%;
+  height: 5vh;
+  padding: 0.7rem;
+  margin-right: 1rem;
+
+}
+
+.copyright{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.copyright p{
+  color: #ffffff;
+  font-size: 12px;
 }
