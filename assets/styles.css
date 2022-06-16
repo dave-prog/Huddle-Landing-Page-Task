@@ -17,3 +17,80 @@
   margin: 0;
   scroll-behavior: smooth;
 }
+
+body{
+  padding: 0px;
+  margin: auto;
+  background-color: transparent;
+}
+
+.header{
+  background-image: url('./images/bg-hero-desktop.svg');
+  background-color: var(--very-pale-cyan);
+  background-size: 100%;
+  padding: 3rem 5.2rem;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5.3rem;
+}
+
+.logo{
+  width: 15%;
+}
+
+.nav-btn{
+  font-family: var(--open-sans);
+  font-weight: 700;
+  padding: 0.8rem 3rem;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px hsl(209, 27%, 79%);
+}
+
+.header_content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.write_up{
+  width: 70%;
+  padding-right: 4rem;
+}
+
+h2{
+  font-family: var(--poppins);
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 4rem;
+  margin-bottom: 2rem;
+}
+
+p{
+  font-family: var(--open-sans);
+  font-size: 17.5px;
+  font-weight: 400;
+}
+
+.btn{
+  background-color: var(--pink);
+  font-family: var(--open-sans);
+  font-weight: 700;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+}
+
+.mockup{
+  width: 100%;
+}
